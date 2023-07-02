@@ -15,8 +15,8 @@ function App() {
      <div className="App">
       <DataTable value={data} sortMode='multiple'>
         <Column field="document_title" header="document_title" sortable></Column>
-        <Column field="short_answers" header="short_answer" sortable></Column>
         <Column field="question_text" header="question_text" sortable></Column>
+        <Column field="short_answers" header="short_answers" sortable></Column>
         <Column field="yes_no_answer" header="yes_no_answer" sortable></Column>
       </DataTable>
     </div>
