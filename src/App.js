@@ -25,7 +25,7 @@ function App() {
       })}
       />
 
-      <DataTable value={data} sortMode='multiple' filters ={filters} paginator rows={100} rowsPerPageOptions={[1,2,3,4,5]} totalRecords={100}>
+      <DataTable value={data} sortMode='multiple' filters ={filters} paginator rows={100} rowsPerPageOptions={[10,100,1000,3000]} totalRecords={100}>
         <Column field="document_title" header="document_title" sortable></Column>
         <Column field="question_text" header="question_text" sortable></Column>
         <Column field="0" header="short_answers_1" sortable></Column>
