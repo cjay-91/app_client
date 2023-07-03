@@ -29,12 +29,12 @@ function App() {
         <Column field="document_title" header="document_title" sortable></Column>
         <Column field="question_text" header="question_text" sortable></Column>
         <Column field="0" header="short_answers_1" sortable></Column>
-        <Column field="1" header="short_answers" sortable></Column>
-        <Column field="2" header="short_answers" sortable></Column>
-        <Column field="3" header="short_answers" sortable></Column>
-        <Column field="4" header="short_answers" sortable></Column>
-        <Column field="5" header="short_answers" sortable></Column>
-        <Column field="6" header="short_answers" sortable></Column>
+        <Column field="1" header="short_answers_2" sortable></Column>
+        <Column field="2" header="short_answers_3" sortable></Column>
+        <Column field="3" header="short_answers_4" sortable></Column>
+        <Column field="4" header="short_answers_5" sortable></Column>
+        <Column field="5" header="short_answers_6" sortable></Column>
+        <Column field="6" header="short_answers_7" sortable></Column>
 
         {/* <Column field="7" header="short_answers" sortable></Column>
         <Column field="8" header="short_answers" sortable></Column>
